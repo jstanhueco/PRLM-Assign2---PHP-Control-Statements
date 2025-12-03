@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://media.gettyimages.com/id/1171575065/video/retro-land.jpg?s=640x640&k=20&c=ovkCjgliHPVN7hE2j6d6q8sqZrC0l7VkJ2eta_QznCI=')
+                no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav {
+    background: rgba(0,0,0,0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.game-card {
+    background: rgba(255,255,255,0.05);
+    padding: 10px;
+    border-radius: 12px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.game-card:hover {
+    transform: scale(1.07);
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.table-box {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
